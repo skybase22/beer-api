@@ -1,0 +1,24 @@
+APP:
+  PORT: 8000
+  URL: "http://localhost:8000"
+
+SQL:
+  MY_SQL:
+    HOST: ""
+    PORT: 
+    USERNAME: ""
+    PASSWORD: ""
+    DATABASE_NAME: ""
+  POSTGRE_SQL:
+    HOST: "localhost"
+    PORT: 5432
+    USERNAME: "beer"
+    PASSWORD: "123456"
+    DATABASE_NAME: "beer"
+
+MONGO:
+  HOST: "localhost"
+  PORT: 27017
+  USERNAME: "beer"
+  PASSWORD: "123456"
+  DATABASE_NAME: "beer_db"

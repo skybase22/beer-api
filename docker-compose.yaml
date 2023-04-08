@@ -1,0 +1,15 @@
+version: "2"
+services:
+
+  cwallet:
+    restart: always
+    build: "./"
+    volumes:
+      - "./:/api"
+    container_name: beer_api
+    hostname: beer_api
+    ports:
+      - 8000:8000
+    deploy:
+      restart_policy:
+        condition: on-failure

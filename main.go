@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	environment := flag.String("environment", "local", "set working environment")
+	environment := flag.String("environment", "test", "set working environment")
 	configs := flag.String("config", "configs", "set configs path, default as: 'configs'")
 	flag.Parse()
 
